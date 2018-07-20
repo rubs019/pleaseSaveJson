@@ -1,0 +1,41 @@
+body {
+    width: 250px;
+    height: 400px;
+    background: linear-gradient(#2193b0, #6dd5ed);
+}
+
+#title {
+    color: white;
+    text-align: center;
+}
+#list-json {
+    height: 320px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.listJSON {
+    padding-left: 5px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.listJSON:hover {
+    cursor: pointer;
+    background: rgba(109, 213, 237, 0.4);
+}
+.listAction {
+    float: right;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+}
+footer input {
+    float: right;
+}

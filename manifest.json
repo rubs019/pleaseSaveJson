@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "PleaseSaveJSON",
+  "description": "Plugin for save your JSON data and easy access",
+  "version": "0.0.1.0",
+  "author": "Ruben DESERT",
+
+  "browser_action": {
+    "default_icon": "./app/icons/hodor.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

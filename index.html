@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pleaseSaveJSON</title>
+    <link rel="stylesheet" href="app/assets/css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1 id="title">{{ title }}</h1>
+    </div>
+    <div id="list-json">
+        <div v-for="item in items" class="listJSON">
+            {{ item.title }}
+            <div class="listAction">
+                <input type="button" value="Delete">
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <input type="button" value="Create"  v-on:click="openCreateTabs">
+    </footer>
+</body>
+<script src="./node_modules/vue/dist/vue.js"></script>
+<script src="app/assets/js/app.js"></script>
+</html>
